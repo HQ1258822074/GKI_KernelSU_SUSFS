@@ -88,7 +88,6 @@ jobs:
         include:
           - sub_level: "248"
             os_patch_level: "2026-01"
-            revision: "r00"
     uses: ./.github/workflows/build.yml
     secrets: inherit
     with:
